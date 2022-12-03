@@ -14,15 +14,14 @@ const mount = (el: HTMLElement): void => {
     root.render(<Root />);
 };
 
-const id = process.env.NODE_ENV === 'development' ? 'root' : packageJson.name;
-const root = document.getElementById(id);
+const root = document.getElementById(packageJson.name);
 
 if (root) {
     mount(root);
 }
 
 if (!root) {
-    throw new Error(`There is no component with id "${id}"`);
+    throw new Error(`There is no component with id "${packageJson.name}"`);
 }
 
 export {};
