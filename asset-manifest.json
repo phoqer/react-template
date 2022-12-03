@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.js": "/react-template/static/js/main.2e8a5dc2.js",
+    "main.js": "/react-template/static/js/main.48bf5914.js",
     "author.js": "/react-template/bundle.js",
     "static/css/751.61716bb0.chunk.css": "/react-template/static/css/751.61716bb0.chunk.css",
-    "static/js/751.9446fbb6.chunk.js": "/react-template/static/js/751.9446fbb6.chunk.js",
+    "static/js/751.d5ed93d9.chunk.js": "/react-template/static/js/751.d5ed93d9.chunk.js",
     "static/js/694.dbb00c4a.chunk.js": "/react-template/static/js/694.dbb00c4a.chunk.js",
     "static/js/774.9c1d6c48.chunk.js": "/react-template/static/js/774.9c1d6c48.chunk.js",
     "static/js/155.d0d8f4fd.chunk.js": "/react-template/static/js/155.d0d8f4fd.chunk.js",
@@ -23,10 +23,10 @@
     "static/js/540.5e3f8e67.chunk.js": "/react-template/static/js/540.5e3f8e67.chunk.js",
     "index.html": "/react-template/index.html",
     "static/media/getFetch.cjs": "/react-template/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.2e8a5dc2.js.map": "/react-template/static/js/main.2e8a5dc2.js.map",
+    "main.48bf5914.js.map": "/react-template/static/js/main.48bf5914.js.map",
     "bundle.js.map": "/react-template/bundle.js.map",
     "751.61716bb0.chunk.css.map": "/react-template/static/css/751.61716bb0.chunk.css.map",
-    "751.9446fbb6.chunk.js.map": "/react-template/static/js/751.9446fbb6.chunk.js.map",
+    "751.d5ed93d9.chunk.js.map": "/react-template/static/js/751.d5ed93d9.chunk.js.map",
     "694.dbb00c4a.chunk.js.map": "/react-template/static/js/694.dbb00c4a.chunk.js.map",
     "774.9c1d6c48.chunk.js.map": "/react-template/static/js/774.9c1d6c48.chunk.js.map",
     "155.d0d8f4fd.chunk.js.map": "/react-template/static/js/155.d0d8f4fd.chunk.js.map",
@@ -46,6 +46,6 @@
     "540.5e3f8e67.chunk.js.map": "/react-template/static/js/540.5e3f8e67.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.2e8a5dc2.js"
+    "static/js/main.48bf5914.js"
   ]
 }
