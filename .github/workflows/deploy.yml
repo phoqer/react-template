@@ -6,7 +6,7 @@ on:
       - 'v[0-9]+.[0-9]+.[0-9]+'
 
 env:
-  PHOQER_APP_HOST: http://localhost:3001
+  PHOQER_APP_HOST: https://phoqer.github.io/react-template
   PHOQER_BE_HOST: http://api.phoqer.com
 
 jobs:
