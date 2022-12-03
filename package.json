@@ -1,6 +1,6 @@
 {
     "name": "phoqer-react-template",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "homepage": "https://phoqer.github.io/react-template/",
     "private": true,
     "dependencies": {
