@@ -55,7 +55,7 @@
         "prettier": "prettier -c .prettierrc -w",
         "eslint": "eslint -c .eslintrc --fix ./src/",
         "tsc": "tsc --pretty --noEmit",
-        "lint": "npm run prettier && npm run eslint",
+        "lint": "npm run tsc && npm run prettier && npm run eslint",
         "release": "./scripts/publish.sh"
     },
     "browserslist": {
