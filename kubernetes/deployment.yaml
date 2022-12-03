@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: react-template
+  labels: 
+    app: react-template
+    tier: frontend
+spec:
+  replicas: 1 
+  selector:
+    matchLabels:
+      app: react-template
+  template:
+    metadata:
+      labels:
+        app: react-template
+    spec:
+      containers:
+      - name: react-template
+        image: ghcr.io/phoqer/react-template:latest
+        ports: 
+        - containerPort: 4001
+      imagePullSecrets:
+       - name: ghcr-secret
