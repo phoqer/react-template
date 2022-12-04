@@ -1,7 +1,6 @@
 {
-    "name": "phoqer-react-template",
-    "version": "0.0.12",
-    "homepage": "https://phoqer.github.io/react-template/",
+    "name": "{{cookiecutter.app_name}}",
+    "version": "0.0.1",
     "private": true,
     "dependencies": {
         "axios": "^1.1.3",

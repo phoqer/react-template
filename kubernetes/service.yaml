@@ -1,14 +1,14 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: react-template
+  name: {{cookiecutter.app_name}}
 spec:
   selector:
-    app: react-template
+    app: {{cookiecutter.app_name}}
   ports:
   - name: http
     protocol: TCP
     port: 80
-    targetPort: 3000
+    targetPort: {{cookiecutter.port}}
   type: NodePort
 

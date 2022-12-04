@@ -1,8 +1,8 @@
 # Use official node image
 FROM node:18-alpine AS build
 
-ENV PORT=3000
-ENV PHOQER_APP_HOST=http://[template].phoqer.com
+ENV PORT={{cookiecutter.port}}
+ENV PHOQER_APP_HOST=http://{{cookiecutter.app_name}}.phoqer.com
 
 ENV PHOQER_BE_HOST=http://api.phoqer.com
 

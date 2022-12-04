@@ -1,1 +1,1 @@
-# Phoqer react template
+# Phoqer {{cookiecutter.app_name}}

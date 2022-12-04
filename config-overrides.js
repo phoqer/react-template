@@ -11,7 +11,7 @@ module.exports = {
                     name: 'author',
                     filename: 'bundle.js',
                     exposes: {
-                        './[template]': './src/index',
+                        './{{cookiecutter.app_name}}': './src/index',
                     },
                     shared: packageJson.dependencies,
                 }),
