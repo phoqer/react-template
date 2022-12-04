@@ -18,14 +18,14 @@ const HomePage = (): JSX.Element => {
     }, [aside]);
 
     return (
-        <Appear>
+        <Appear style={{ marginTop: 20 }}>
             <Container>
                 <h1>React template</h1>
 
-                <p>
+                <p style={{ marginTop: 20 }}>
                     <span style={{ marginRight: 10 }}>Open repository:</span>
-                    <Link href="https://phoqer.github.io/react-template/" target="_blank">
-                        https://phoqer.github.io/react-template/
+                    <Link href="https://github.com/phoqer/react-template" target="_blank">
+                        https://github.com/phoqer/react-template
                     </Link>
                 </p>
             </Container>
