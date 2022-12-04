@@ -7,6 +7,6 @@ export interface EnvConfig {
 }
 
 export const env: EnvConfig = {
-    PHOQER_APP_HOST: 'http://localhost:{{cookiecutter.port}}',
+    PHOQER_APP_HOST: 'http://localhost:{{phoqer.port}}',
     PHOQER_BE_HOST: 'http://api.phoqer.com',
 };

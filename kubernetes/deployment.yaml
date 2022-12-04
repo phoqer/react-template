@@ -1,24 +1,24 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{cookiecutter.app_name}}
+  name: {{phoqer.app_name}}
   labels: 
-    app: {{cookiecutter.app_name}}
+    app: {{phoqer.app_name}}
     tier: frontend
 spec:
   replicas: 1 
   selector:
     matchLabels:
-      app: {{cookiecutter.app_name}}
+      app: {{phoqer.app_name}}
   template:
     metadata:
       labels:
-        app: {{cookiecutter.app_name}}
+        app: {{phoqer.app_name}}
     spec:
       containers:
-      - name: {{cookiecutter.app_name}}
-        image: ghcr.io/phoqer/{{cookiecutter.app_name}}:latest
+      - name: {{phoqer.app_name}}
+        image: ghcr.io/phoqer/{{phoqer.app_name}}:latest
         ports: 
-        - containerPort: {{cookiecutter.port}}
+        - containerPort: {{phoqer.port}}
       imagePullSecrets:
        - name: ghcr-secret

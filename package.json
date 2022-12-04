@@ -1,5 +1,5 @@
 {
-    "name": "{{cookiecutter.app_name}}",
+    "name": "{{phoqer.app_name}}",
     "version": "0.0.1",
     "private": true,
     "dependencies": {
