@@ -1,3 +1,3 @@
-# Phoqer {{phoqer.app_name}}
+# {{phoqer.app_title}}
 
 ## How to use React template
