@@ -3,37 +3,37 @@
   "name": "Phoqer App",
   "icons": [
     {
-      "src": "/meta/ico/16.ico",
+      "src": "http://phoqer.com/meta/ico/16.ico",
       "sizes": "16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "/meta/ico/24.ico",
+      "src": "http://phoqer.com/meta/ico/24.ico",
       "sizes": "24x24",
       "type": "image/x-icon"
     },
     {
-      "src": "/meta/ico/32.ico",
+      "src": "http://phoqer.com/meta/ico/32.ico",
       "sizes": "32x32",
       "type": "image/x-icon"
     },
     {
-      "src": "/meta/ico/74.ico",
+      "src": "http://phoqer.com/meta/ico/74.ico",
       "sizes": "74x74",
       "type": "image/x-icon"
     },
     {
-      "src": "/meta/png/192.png",
+      "src": "http://phoqer.com/meta/png/192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/meta/png/384.png",
+      "src": "http://phoqer.com/meta/png/384.png",
       "type": "image/png",
       "sizes": "384x384"
     },
     {
-      "src": "/meta/png/512.png",
+      "src": "http://phoqer.com/meta/png/512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
